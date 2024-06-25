@@ -352,13 +352,13 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5434.4 avail Mem
 @NanaAichata ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-972834 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)*** 5.3Gi
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 20771760
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** The version is 6.5.0-1021-azure and the hardware architecture is x86_64
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 'ls' lists the contents of a directory, showing the names of files and directories while 'ls -asl' provides a more detailed view of all files, including hidden ones, along with their sizes and additional metadata.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 2560 4K pages
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 2777.642
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 1.3%
 
 ## Running your own container instance.
 
