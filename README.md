@@ -482,7 +482,7 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 @NanaAichata ➜ /workspaces/OSProject/webpage (main) $ ls -ld /workspaces/OSProject/webpage
 drwxrwxrwx+ 2 codespace codespace 4096 Jun 26 12:12 /workspaces/OSProject/webpage
 ```
-The permission is read, write execute for the owner, the group and others. The user and group who owns the folder is codespace
+The permission is read, write and execute for the owner, the group and others. The user and group who owns the folder is codespace
 
 2. What port is the apache web server running.***(1 mark)*** port 80
 3. What port is open for http protocol on the host machine? ***(1 mark)*** port 8080
