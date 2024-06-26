@@ -477,7 +477,8 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** ```bash
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+```bash
 @NanaAichata ➜ /workspaces/OSProject/webpage (main) $ ls -ld /workspaces/OSProject/webpage
 drwxrwxrwx+ 2 codespace codespace 4096 Jun 26 12:12 /workspaces/OSProject/webpage
 ```
