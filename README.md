@@ -505,19 +505,20 @@ docker run -itd --net rednet --name c2 busybox sh
 ***Questions:***
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)***
-* BusyBox is a software suite that provides several Unix utilities in a single executable file. The --name switch is used to assign a specific name to a container when it is created.
+BusyBox is a software suite that provides several Unix utilities in a single executable file. The --name switch is used to assign a specific name to a container when it is created.
 3. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
-*@SyasyaAlyssa ➜ /workspaces/OSProject/myroot (main) $ docker network ls
+@SyasyaAlyssa ➜ /workspaces/OSProject/myroot (main) $ docker network ls
 NETWORK ID     NAME      DRIVER    SCOPE
 0f564ba326a9   bluenet   bridge    local
 9f230223e1f8   bridge    bridge    local
 e3bb47280b3d   host      host      local
 ab27bc40cec9   none      null      local
 5d1b3e762346   rednet    bridge    local
-4. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***Gateway Bluenet: 172.18.0.1. Gateway Rednet: 0.
-5. What is the network address for the running container c1 and c2? ***(1 mark)***
-*Network address c1: 172.18.0.2. Network address c2: 0.
-6. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+4. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)**
+Gateway Bluenet: 172.18.0.1. Gateway Rednet: 0.
+6. What is the network address for the running container c1 and c2? ***(1 mark)***
+Network address c1: 172.18.0.2. Network address c2: 0.
+7. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
 No I'm not able to ping.
 @SyasyaAlyssa ➜ /workspaces/OSProject (main) $ docker exec c1 ping c2
 ping: bad address 'c2'
