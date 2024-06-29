@@ -5,7 +5,7 @@ Group Name: Nachos
 Section: 3
 
 Team Mates:
-1. __Fill name__ and __matric no__
+1. Nur Irdina binti Abd Rahman 2213414
 2. Nursyasya Alyssa Binti Norjunaidi 2214566
 3. Nana Aichata Mbourou Camara 2125102
 
