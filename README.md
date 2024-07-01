@@ -5,7 +5,7 @@ Group Name: Nachos
 Section: 3
 
 Team Mates:
-1. __Fill name__ and __matric no__
+1. Nur Irdina binti Abd Rahman 2213414
 2. Nursyasya Alyssa Binti Norjunaidi 2214566
 3. Nana Aichata Mbourou Camara 2125102
 
@@ -695,8 +695,14 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)***
+```
+curl: (7) Failed to connect to localhost port 3000: Connection refused
+```
+3. Show the instruction needed to make this work. ***(1 mark)***
+```
+The first step is to start the Node.js application using the command "node app.js". Next is to send a GET request using the command "curl http://localhost:{port}/{end-point}, with a specific port and end point that has been initialized beforehand.
+```
 
 
 
